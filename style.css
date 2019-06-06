@@ -1,0 +1,71 @@
+
+
+#content {
+    width:70%;
+    margin-left:-30%;
+    position:absolute;
+    left:45%
+    }
+.photo {
+      max-width: 65%;
+    }
+
+* {margin:0;padding:0}
+ 
+html, body {height: 100%}
+#wrap {min-height: 100%}
+ 
+#main {
+    overflow:auto;
+    padding-bottom: 150px
+}
+ 
+
+#footer{
+position:fixed;
+bottom:0;
+left:0;
+height:3%;
+weight:100%
+background: #1C1C1C;
+}
+
+.bouton{
+display:block;
+width:150px;
+line-height:30px;
+text-align:center;
+vertical-align:middle;
+background:url(img/bg.png) no-repeat;
+color:grey;
+text-decoration:none;
+font-family: Arial;
+}
+.bouton:hover {
+background:url(img/bg.png) no-repeat;
+}
+
+
+
+/* General */
+body {
+	margin: 0;
+	padding: 0;
+	color:black;
+	font: normal 90% "Trebuchet MS",Verdana,"Lucida Grande",Tahoma,Arial,Helvetica,Sans-Serif;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+	overflow: auto;
+	background: #E6E6E6;
+}
+
+h2 {
+	margin-top:0;
+	font-size: 2em;
+	font-weight:bold;
+	color: #eca603;
+}
+
+a {
+	font-weight:bold;
+	color:black;
+}
